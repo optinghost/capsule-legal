@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Capsule</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f5f5f5;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    header {
+      background: #008080;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    header a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.9rem; }
+    header a:hover { color: #fff; }
+    header .sep { color: rgba(255,255,255,0.4); margin: 0 0.4rem; }
+    header h1 { font-size: 1.3rem; font-weight: 600; }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 4rem;
+    }
+    .meta {
+      font-size: 0.85rem;
+      color: #888;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #008080;
+      margin: 2rem 0 0.6rem;
+    }
+    p { margin-bottom: 0.9rem; }
+    ul { margin: 0.4rem 0 0.9rem 1.4rem; }
+    ul li { margin-bottom: 0.35rem; }
+    a { color: #008080; }
+    .highlight {
+      background: #f0fafa;
+      border-left: 3px solid #008080;
+      padding: 0.9rem 1.2rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1rem 0;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <a href="index.html">Capsule Legal</a><span class="sep">›</span>
+      <span>Privacy Policy</span>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="meta">Effective date: April 8, 2026 &nbsp;·&nbsp; App: Capsule — One-Thought Journal &nbsp;·&nbsp; Package: com.optinghost.capsule</div>
+
+    <div class="highlight">
+      Capsule is a private journaling app. Your journal entries, mood data, and photos are yours. We do not sell your data, show you ads, or share your information with third parties beyond what is necessary to operate the app (Firebase/Google Cloud).
+    </div>
+
+    <h2>1. Who We Are</h2>
+    <p>Capsule is developed and operated by Optinghost (the "Developer"). If you have questions about this policy, you can contact us via our <a href="https://github.com/Optinghost" target="_blank">GitHub profile</a>.</p>
+
+    <h2>2. Information We Collect</h2>
+    <p>We only collect what is needed to make the app work.</p>
+
+    <h2>2.1 Account Information</h2>
+    <p>You can use Capsule in two ways:</p>
+    <ul>
+      <li><strong>Anonymous account:</strong> No personal information is collected. You are assigned a random anonymous user ID by Firebase.</li>
+      <li><strong>Google account:</strong> We receive your Google display name, email address, and Google account ID from Firebase Authentication. This is used solely to identify your account and sync your data.</li>
+    </ul>
+
+    <h2>2.2 Journal Content</h2>
+    <p>The following content is stored to provide the journaling service:</p>
+    <ul>
+      <li>Journal entries: date, mood selection, written thought</li>
+      <li>Context cards: selected emotions, weather, people, meals, health, hobbies, and chores</li>
+      <li>Photos you choose to attach to entries</li>
+    </ul>
+    <p>This content is stored in Google Firestore (cloud) and on your device (local Hive cache). The local cache is automatically cleaned of entries older than 2 years and is capped at 500 entries.</p>
+
+    <h2>2.3 App Settings</h2>
+    <p>App preferences (theme, notification time, onboarding status) are stored locally on your device via SharedPreferences. This data never leaves your device.</p>
+
+    <h2>2.4 Notifications</h2>
+    <p>If you enable the daily reminder, the scheduled time is stored locally on your device. We do not send push notifications from our own servers; reminders are scheduled directly on your device.</p>
+
+    <h2>3. Information We Do NOT Collect</h2>
+    <ul>
+      <li>We do not collect analytics or usage statistics</li>
+      <li>We do not serve advertisements</li>
+      <li>We do not collect your location</li>
+      <li>We do not access your contacts</li>
+      <li>We do not track you across other apps or websites</li>
+      <li>We do not use fingerprinting or device identifiers beyond Firebase's anonymous UID</li>
+    </ul>
+
+    <h2>4. How We Use Your Information</h2>
+    <p>Your data is used exclusively to:</p>
+    <ul>
+      <li>Display your journal entries and mood history within the app</li>
+      <li>Sync your data across your devices (if using a Google account)</li>
+      <li>Store photos you attach to entries</li>
+    </ul>
+
+    <h2>5. Third-Party Services</h2>
+    <p>Capsule uses the following Google/Firebase services to operate:</p>
+    <ul>
+      <li><strong>Firebase Authentication</strong> — manages sign-in</li>
+      <li><strong>Cloud Firestore</strong> — stores entries and card data</li>
+      <li><strong>Firebase Storage</strong> — stores attached photos</li>
+    </ul>
+    <p>These services are operated by Google LLC and are subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>. Your data is stored on Google Cloud infrastructure. We do not use any other third-party services that access your personal data.</p>
+
+    <h2>6. Data Retention and Deletion</h2>
+    <p>Your data is retained as long as your account exists. You can delete your data at any time:</p>
+    <ul>
+      <li>Delete individual entries from within the app</li>
+      <li>Delete your account from Settings → Account → Delete Account (this permanently removes all your data from Firestore and Firebase Storage)</li>
+    </ul>
+    <p>Local cached data is automatically pruned (entries older than 2 years, maximum 500 entries).</p>
+
+    <h2>7. Data Security</h2>
+    <p>All data transmitted between the app and Firebase is encrypted in transit (HTTPS/TLS). Data stored in Firestore is protected by Firebase Security Rules — only you (authenticated by your account) can read or write your own entries. Photos stored in Firebase Storage are similarly protected.</p>
+
+    <h2>8. Children's Privacy</h2>
+    <p>Capsule is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us and we will delete it promptly.</p>
+
+    <h2>9. Your Rights</h2>
+    <p>Depending on your location, you may have rights including:</p>
+    <ul>
+      <li>Access to the personal data we hold about you</li>
+      <li>Correction of inaccurate data</li>
+      <li>Deletion of your data</li>
+      <li>Portability of your data</li>
+    </ul>
+    <p>To exercise these rights, contact us via our <a href="https://github.com/Optinghost" target="_blank">GitHub profile</a>. Because your journal content is private and accessible only to you within the app, you can also manage it directly through the app interface.</p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes will be posted at this URL with an updated effective date. We encourage you to review this page periodically. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>11. Contact</h2>
+    <p>If you have questions or concerns about this Privacy Policy, please contact us via <a href="https://github.com/Optinghost" target="_blank">github.com/Optinghost</a>.</p>
+  </div>
+</body>
+</html>

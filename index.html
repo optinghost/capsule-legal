@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capsule — Legal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f5f5f5;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 3rem 2.5rem;
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 4px 24px rgba(0,128,128,0.10);
+    }
+    .logo {
+      width: 64px;
+      height: 64px;
+      background: #008080;
+      border-radius: 16px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.25rem;
+    }
+    .logo svg { width: 36px; height: 36px; fill: #fff; }
+    h1 { font-size: 1.6rem; font-weight: 600; color: #008080; margin-bottom: 0.4rem; }
+    .subtitle { font-size: 0.95rem; color: #666; margin-bottom: 2.5rem; }
+    .links { display: flex; flex-direction: column; gap: 1rem; }
+    .link-btn {
+      display: block;
+      background: #008080;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.9rem 1.5rem;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+    .link-btn:hover { background: #006666; }
+    .link-btn.outline {
+      background: transparent;
+      border: 2px solid #008080;
+      color: #008080;
+    }
+    .link-btn.outline:hover { background: #f0fafa; }
+    footer { margin-top: 2rem; font-size: 0.8rem; color: #999; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">
+      <svg viewBox="0 0 24 24"><path d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
+    </div>
+    <h1>Capsule</h1>
+    <p class="subtitle">One-Thought Journal — Legal Documents</p>
+    <div class="links">
+      <a class="link-btn" href="privacy-policy.html">Privacy Policy</a>
+      <a class="link-btn outline" href="terms-of-service.html">Terms of Service</a>
+    </div>
+  </div>
+  <footer>Last updated: April 2026</footer>
+</body>
+</html>
