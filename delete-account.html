@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delete Account — Capsule</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f5f5f5;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    header {
+      background: #008080;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    header a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.9rem; }
+    header a:hover { color: #fff; }
+    header .sep { color: rgba(255,255,255,0.4); margin: 0 0.4rem; }
+    header h1 { font-size: 1.3rem; font-weight: 600; }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 4rem;
+    }
+    .meta {
+      font-size: 0.85rem;
+      color: #888;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #008080;
+      margin: 2rem 0 0.6rem;
+    }
+    p { margin-bottom: 0.9rem; }
+    ul { margin: 0.4rem 0 0.9rem 1.4rem; }
+    ul li { margin-bottom: 0.35rem; }
+    a { color: #008080; }
+    .highlight {
+      background: #f0fafa;
+      border-left: 3px solid #008080;
+      padding: 0.9rem 1.2rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1rem 0;
+      font-size: 0.95rem;
+    }
+    .steps {
+      counter-reset: step;
+      list-style: none;
+      margin: 0.4rem 0 0.9rem 0;
+    }
+    .steps li {
+      counter-increment: step;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 0.8rem;
+    }
+    .steps li::before {
+      content: counter(step);
+      background: #008080;
+      color: #fff;
+      font-weight: 600;
+      font-size: 0.85rem;
+      min-width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0.15rem;
+    }
+    .warning {
+      background: #fff8f0;
+      border-left: 3px solid #e07000;
+      padding: 0.9rem 1.2rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1rem 0;
+      font-size: 0.95rem;
+      color: #7a4000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <a href="index.html">Capsule Legal</a><span class="sep">›</span>
+      <span>Delete Account</span>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="meta">Last updated: May 2026 &nbsp;·&nbsp; App: Capsule — One-Thought Journal &nbsp;·&nbsp; Developer: Optinghost</div>
+
+    <div class="highlight">
+      You can delete your Capsule account and all associated data directly from within the app. No email or form submission is required — deletion is immediate and permanent.
+    </div>
+
+    <h2>How to Delete Your Account</h2>
+    <p>Follow these steps inside the Capsule app:</p>
+    <ol class="steps">
+      <li><span>Open the Capsule app and go to the <strong>Settings</strong> tab (bottom navigation bar).</span></li>
+      <li><span>Scroll down to the <strong>Account</strong> section.</span></li>
+      <li><span>Tap <strong>Delete Account</strong>.</span></li>
+      <li><span>Confirm the deletion in the dialog that appears.</span></li>
+    </ol>
+
+    <div class="warning">
+      <strong>Warning:</strong> This action is permanent and cannot be undone. All your data will be deleted immediately.
+    </div>
+
+    <h2>What Gets Deleted</h2>
+    <p>When you delete your account, the following data is permanently removed:</p>
+    <ul>
+      <li>Your Firebase Authentication account</li>
+      <li>All journal entries (dates, moods, written thoughts)</li>
+      <li>All context card data (emotions, weather, people, meals, health, hobbies, chores)</li>
+      <li>All photos attached to your entries (from Firebase Storage)</li>
+      <li>Your account document and card configuration from Firestore</li>
+    </ul>
+
+    <h2>What Is Not Retained</h2>
+    <p>There is no data retention period. All data listed above is deleted immediately upon account deletion. We do not keep backups of individual user data after deletion.</p>
+
+    <h2>Local Data</h2>
+    <p>After deleting your account, any locally cached data remaining on your device (stored in the app's private storage) will be cleared the next time the app is opened. You can also clear it immediately by uninstalling the app.</p>
+
+    <h2>Advertising Data</h2>
+    <p>Advertising identifiers and usage data collected by Google AdMob are managed by Google and are not deleted by us. You can manage your ad preferences and data through <a href="https://myaccount.google.com/data-and-privacy" target="_blank">Google's data controls</a>.</p>
+
+    <h2>Contact</h2>
+    <p>If you have trouble deleting your account or need assistance, contact us via <a href="https://github.com/Optinghost" target="_blank">github.com/Optinghost</a>.</p>
+  </div>
+</body>
+</html>
